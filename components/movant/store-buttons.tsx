@@ -29,13 +29,7 @@ const buttonClass =
 export function StoreButtons({ className }: StoreButtonsProps) {
   return (
     <div className={cn('flex flex-col gap-3 sm:flex-row', className)}>
-      <a href="#" className={buttonClass} aria-label="Descargar en App Store">
-        <AppleIcon className="size-7" />
-        <span className="flex flex-col leading-tight">
-          <span className="text-[11px] text-muted-foreground">Descárgalo en</span>
-          <span className="text-base font-semibold">App Store</span>
-        </span>
-      </a>
+    
       <a href="#" className={buttonClass} aria-label="Disponible en Google Play">
         <GooglePlayIcon className="size-7" />
         <span className="flex flex-col leading-tight">
